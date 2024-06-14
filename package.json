@@ -1,0 +1,21 @@
+{
+  "name": "entrega-2---backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./serverExpress",
+  "type": "module",
+  "scripts": {
+    "start": "node --watch --no-warnings ./src/server.js",
+    "stop-windows": "taskkill /F /IM node.exe",
+    "stop-linux": "killall -9 node",
+    "dev": "nodemon . "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-handlebars": "^7.1.2",
+    "socket.io": "^4.7.5",
+    "uuid": "^9.0.1"
+  }
+}
